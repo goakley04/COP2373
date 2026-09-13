@@ -9,7 +9,7 @@ def buy_tickets():
     global TOTAL_TICKETS, BUYERS
 
     while True:
-        tickets_bought = int(input("How many tickets are you purchasing? (Max. of 4) : "))
+        tickets_bought = int(input("Please enter the amount of tickets to purchase. (Max. 4) : "))
 
         if tickets_bought > MAX_TICKETS:
             print("Error: Max of 4 tickets per customer. \n")
