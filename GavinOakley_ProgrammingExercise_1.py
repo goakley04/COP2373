@@ -1,5 +1,5 @@
 #First, set up some constant variables as defaults to be used for counting in both functions.
-TOTAL_TICKETS = 20
+TOTAL_TICKETS = 10
 MAX_TICKETS = 4
 BUYERS = 0
 
